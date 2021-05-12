@@ -1,0 +1,12 @@
+{
+  "apps" : [{
+    "name": "dev-serv",
+    "script": "yarn",
+    "args": "run dev",
+    "watch": false,
+    "log_file": "server.log",
+    "env": {
+      "PORT": "8002"
+    }
+  }]
+}
