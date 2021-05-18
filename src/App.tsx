@@ -1,5 +1,7 @@
-import * as React from 'react';
-
 export const App = () => {
-  return <>hello</>;
+  return (
+    <>
+      hello d<h1>dsad</h1>
+    </>
+  );
 };

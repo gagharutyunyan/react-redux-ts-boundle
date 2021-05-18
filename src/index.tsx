@@ -1,11 +1,7 @@
 import './assets/css/reset.css';
 import './assets/css/base.css';
 
-import * as React from 'react';
-import * as ReactDOM from 'react-dom';
-
 import { App } from './App';
+import ReactDOM from 'react-dom';
 
-const container = document.getElementById('the-app');
-
-ReactDOM.render(<App />, container);
+ReactDOM.render(<App />, document.getElementById('the-app'));

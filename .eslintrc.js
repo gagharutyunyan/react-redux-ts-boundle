@@ -45,7 +45,7 @@ module.exports = {
     ],
     // 'no-console': ['error', { allow: ['warn', 'error'] }],
     'object-curly-spacing': [1, 'always'],
-    'react/jsx-uses-react': 1,
+    'react/jsx-uses-react': 'off',
     'react/jsx-uses-vars': 1,
     'react/boolean-prop-naming': [
       'error',
@@ -79,7 +79,7 @@ module.exports = {
     'react/jsx-no-target-blank': 1,
     'react/jsx-wrap-multilines': 1,
     'react/no-will-update-set-state': 1,
-    'react/react-in-jsx-scope': 1,
+    'react/react-in-jsx-scope': 'off',
     'react/require-render-return': 1,
     'react/self-closing-comp': 1,
     'react/state-in-constructor': 1,
